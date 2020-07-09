@@ -3,11 +3,11 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 * {
   font-family: "Bai Jamjuree", sans-serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -32,7 +32,7 @@ body {
 }
 
 .text-banner__area {
-  width: 730px;
+  width: 50%;
   text-align: center;
 }
 
@@ -86,7 +86,6 @@ body {
 /* ----- MIDDLE BANNER -----  */
 
 .middle-banner {
-  margin-top: -100px;
   display: flex;
 }
 
@@ -102,6 +101,9 @@ body {
 
 .middle-banner img {
   margin-left: -120px;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
 }
 
 /* ----- BANNER INFO DEVICE -----  */
@@ -114,6 +116,9 @@ body {
 }
 
 .banner-info__device img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
   margin-top: 124px;
   margin-bottom: 124px;
 }
@@ -121,8 +126,8 @@ body {
 /* ----- SECTION SERVICES -----  */
 
 .section-services {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
   width: 80%;
   margin: 0 auto;
   margin-top: 124px;
